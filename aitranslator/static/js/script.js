@@ -32,7 +32,7 @@ document.getElementById('translateBtn').addEventListener('click', async function
 
             const translatedText = document.getElementById('translatedText');
             translatedText.value = result.translated_text;
-            translatedText.style.opacity = 1; // Trigger the fade-in animation
+            translatedText.style.opacity = 1; 
         } else {
             alert('Error in translation: ' + result.error);
         }
