@@ -16,8 +16,8 @@ def index():
 def translate_text():
     data = request.json
     text = data.get('text', '')
-    src_lang = data.get('src_lang', 'en')  # default to English
-    dest_lang = data.get('dest_lang', 'es')  # default to Spanish
+    src_lang = data.get('src_lang', 'en') 
+    dest_lang = data.get('dest_lang', 'es') 
 
     try:
 
