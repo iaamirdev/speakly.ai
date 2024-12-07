@@ -5,7 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
     color: #fff;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
 
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 40px 50px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -67,7 +67,7 @@ select {
 
 
 button {
-    background-color: #2575fc; /* Blue button */
+    background-color: #2575fc;
     color: #fff;
     padding: 14px 30px;
     border-radius: 50px;
@@ -80,8 +80,8 @@ button {
 }
 
 button:hover {
-    background-color: #6a11cb; /* Darker blue on hover */
-    transform: scale(1.05); /* Slightly enlarge the button */
+    background-color: #6a11cb; 
+    transform: scale(1.05);
 }
 
 
@@ -102,8 +102,8 @@ h3 {
     box-sizing: border-box;
     resize: none;
     background-color: #f9f9f9;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 1s ease-in-out; /* Fade-in effect */
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
 }
 
 
